@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HTML Web Page</title>
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+    }
+
+    td:not(:first-child) {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- your HTML code here 👇 -->
+  <h1>Jelly of the Month Club</h1>
+  <h2>Make all your friends jelly of your stock of jelly!</h2>
+  <p>Here at JOTMC Inc., we are constantly striving to supply our customers with the highest-quality and most unique jellies on a monthly basis. For the jelly lover in your<br>
+    life (or yourself)!, this is the gift that keeps on giving all year round. We offer three tiers of monthly jelly joy, and each one offers their own pers. Here is a breakdown<br>
+    of each, as well as your monthly price:
+  </p>
+  <table>
+    <thead>
+      <tr>
+        <th></th>
+        <th>Basic Plan</th>
+        <th>Delux Plan</th>
+        <th>Jelly Giant Plan</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Three new curated jellies per month</td>
+        <td>&#10003;</td>
+        <td>&#10003;</td>
+        <td>&#10003;</td>
+      </tr>
+      <tr>
+        <td>Monthly jennies come with commemorative mason jars</td>
+        <td></td>
+        <td>&#10003;</td>
+        <td>&#10003;</td>
+      </tr>
+      <tr>
+        <td>Fre bonus jar of preserves bi-monthly</td>
+        <td></td>
+        <td>&#10003;</td>
+        <td>&#10003;</td>
+      </tr>
+      <tr>
+        <td>Free yearly tickets to Jelly Con</td>
+        <td></td>
+        <td></td>
+        <td>&#10003;</td>
+      </tr>
+      <tr>
+        <td>Monthly Pricing</td>
+        <td>&#36;30</td>
+        <td>&#36;50</td>
+        <td>&#36;60</td>
+      </tr>
+    </tbody>
+  </table>
+  <p>Like what you see? Become a part of the JOTMC family today!</p>
+  <div>
+    <label for="name"></label>
+    <input type="text" value="Your Name" name="name" id="name" required>
+    <label for="plan"></label>
+    <select name="Select Your Plan">
+      <option value="Basic">Basic Jelly Plan</option>
+      <option value="Deluxe">Deluxe Jelly Plan</option>
+      <option value="Giant">Giant Jelly Plan</option>
+    </select>
+    <button name="submit">Submit</button>
+  </div>
+</body>
+</html>
