@@ -6,7 +6,7 @@ h2 {
 
 .brochure {
   margin: auto;
-  width: 50%;
+  width: 25%;
 }
 
 label {
@@ -17,7 +17,7 @@ label {
 
 .prompt {
   text-align: left;
-  margin: 12px;
+  margin: 20px 0;
   width: 100%;
   font-size: 12px;
 }
@@ -25,17 +25,20 @@ label {
 .prompt-answer > input {
   font-family: AtlasGrotesk, sans-serif;
   width: 95%;
-  height: 40px;
+  height: 45px;
   padding: 0 0 0 10px;
   border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
   border-color: lightgray;
 }
 
 .prompt-answer > select {
   width: 95%;
-  height: 40px;
+  height: 45px;
   padding: 0 0 0 10px;
   border-radius: 5px;
+  border-style: solid;
   border-color: lightgray;
 }
 
