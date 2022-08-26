@@ -1,0 +1,61 @@
+* {
+  font-family: Karla, sans-serif;
+}
+
+.container {
+  margin-top: 5em;
+}
+
+.header {
+  text-align: center;
+  width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header > h1 {
+  font-weight: 1000;
+  font-size: 60px;
+  letter-spacing: 1px;
+}
+
+.header > p {
+  margin: 0 0.5em;
+  line-height: 30px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item-wrapper {
+  display: flex;
+  flex-basis: calc(100% / 2);
+  align-items: flex-start;
+  width: 80%;
+  padding: 50px 75px;
+}
+
+.item-text {
+  line-height: 30px;
+}
+
+.learnmore {
+  text-align: center;
+  margin: 0 0 10em;
+}
+
+input.learn-style {
+  height: 40px;
+  border: 2px solid #d66036;
+  background-color: white;
+  padding: 1em 3em 2em;
+  color: #d66036;
+  font-weight: 800;
+  font-size: larger;
+  margin-bottom: ;
+}
