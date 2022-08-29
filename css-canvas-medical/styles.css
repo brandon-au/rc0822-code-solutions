@@ -1,0 +1,257 @@
+.container {
+  position: relative;
+}
+
+.row {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.navbar-container {
+  padding: auto 0;
+  width: 100%;
+  border: 1px solid lightgray;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+.nav-container {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+header > img {
+  margin: 40px 0;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: end;
+  width: 70%;
+  padding: auto;
+}
+
+nav > a {
+  font-family: Avenir, sans-serif;
+  padding: 20px;
+  color: gray;
+  font-size: 24px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.button-style {
+  color: white;
+  background-color: #2a4465;
+  font-size: 24px;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.hero {
+  background-image: url("./images/hero.jpg");
+  width: 100%;
+  height: 850px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+/* .hero > img {
+  position: absolute;
+  width: 100%;
+} */
+
+.hero-text {
+  position: absolute;
+  width: 45%;
+  margin: 100px 0 100px 250px;
+  color: white;
+}
+
+.hero-text > h1 {
+  font-family: "Tiempos Headline-LightItalic", serif;
+  font-weight: 500;
+  font-size: 64px;
+  margin: 20px auto;
+}
+
+.hero-text > p {
+  font-family: "Arial.woff2", sans-serif;
+  font-size: 24px;
+  font-weight: lighter;
+  line-height: 40px;
+  margin: auto auto 50px;
+}
+
+.hero-overlay {
+  background: rgb(0 0 0 / 20%);
+  position: absolute;
+  width: 84%;
+  height: 850px;
+  margin-left: 8%;
+}
+
+.get-started-btn {
+  color: white;
+  background-color: #2a4465;
+  font-size: 24px;
+  padding: 20px 60px;
+  border-radius: 10px;
+  border: none;
+  height: 64px;
+}
+
+.locations {
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(247 247 247);
+  width: 100%;
+  margin: auto;
+  padding-bottom: 100px;
+}
+
+.location-title {
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.locations-list {
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+}
+
+.location-title > h1 {
+  font-family: "Tiempos Headline-LightItalic", serif;
+  font-size: 48px;
+  margin-top: 100px;
+  color: gray;
+}
+
+.location-title > p {
+  font-family: "Arial.woff2", sans-serif;
+  font-size: 24px;
+  color: gray;
+  width: 50%;
+  margin: auto auto 4em;
+}
+
+.list-1,
+.list-2 > p {
+  align-content: center;
+  justify-content: space-evenly;
+  font-family: "Arial.woff2", sans-serif;
+  font-size: 32px;
+  color: gray;
+}
+
+.learn-more {
+  width: 85%;
+  margin: 40px auto;
+  align-items: center;
+}
+
+.learn-more-text > h1 {
+  font-family: "Tiempos Headline-LightItalic", serif;
+  color: gray;
+  font-size: 48px;
+}
+
+.learn-more-text > p {
+  font-family: "Arial.woff2", sans-serif;
+  font-size: 24px;
+  color: gray;
+}
+
+.footer {
+  background-color: rgb(77 77 77);
+  height: 550px;
+  margin: auto;
+}
+
+.footer-info {
+  justify-content: space-between;
+  width: 85%;
+  margin: auto;
+}
+
+.contact-list > p {
+  font-family: "Arial.woff2", sans-serif;
+  font-size: 24px;
+  color: white;
+  line-height: 1.5em;
+  margin-top: 2em;
+}
+
+.company-list h2,
+.company-list a {
+  font-family: "Arial.woff2", sans-serif;
+  font-weight: 200;
+  color: white;
+}
+
+.company-list-footer {
+  margin: 0 144px;
+}
+
+.product-list-footer {
+  margin-left: 144px;
+}
+
+.company-list-footer > ul {
+  display: flex;
+  flex-direction: column;
+  font-family: "Arial.woff2", sans-serif;
+  font-size: 24px;
+  line-height: 60px;
+  padding-left: 0;
+}
+
+.product-list-footer > ul {
+  display: flex;
+  flex-direction: column;
+  font-family: "Arial.woff2", sans-serif;
+  font-size: 24px;
+  line-height: 60px;
+  padding-left: 0;
+  margin-right: 150px;
+}
+
+.footer-extra {
+  height: 150px;
+  margin: auto;
+  width: 90%;
+}
+
+.footer-extra > a {
+  font-family: "Arial.woff2", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: rgb(77 77 77);
+  margin: auto 2em;
+}
