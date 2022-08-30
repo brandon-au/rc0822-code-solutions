@@ -1,0 +1,60 @@
+.container {
+  position: relative;
+  width: 100%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.center-align {
+  align-content: center;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.title {
+  justify-content: center;
+  text-align: center;
+}
+
+.title > h1 {
+  font-family: Barlow, sans-serif;
+  font-weight: 800;
+}
+
+.content {
+  width: 100%;
+  margin: auto;
+}
+
+.phone-content {
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  margin: auto 0;
+  max-width: 20%;
+}
+
+.phone-icon {
+  width: 25%;
+  margin: auto;
+  text-align: center;
+}
+
+.phone-content > h2 {
+  font-family: Barlow, sans-serif;
+  font-weight: 600;
+}
+
+.phone-content > p {
+  font-family: Barlow, sans-serif;
+  font-weight: 500;
+}
