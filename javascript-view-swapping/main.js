@@ -10,15 +10,17 @@ var $tabContainer = document.querySelector('.tab-container');
 var $tabNodes = document.querySelectorAll('.tab');
 var $viewNodes = document.querySelectorAll('.view');
 
-$tabContainer.addEventListener('click', function (event) {
+$tabContainer.addEventListener('click', function (event) { // can also write as
+  // if (!event.target.matches('.tab)) - an illogical, or bang, operator
   if (event.target.matches('.tab') === false) {
-    return;
+    return; // if tab isnt being targetted by event(click) return from function
   }
-  for (let i = 0; i < $tabNodes.length; i++) {
-    if ($tabNodes[i] === event.target) {
-      $tabNodes[i].className = 'tab active';
+  for (let i = 0; i < $tabNodes.length; i++) { // loops through tabs
+    if ($tabNodes[i] === event.target) { // if tabs@index equals event target
+      $tabNodes[i].className = 'tab active'; // tanNode classes will become 'tab active'
+      // active tab will make that tab active and show in the html
     } else {
-      $tabNodes[i].className = 'tab';
+      $tabNodes[i].className = 'tab'; // not clicked = inactive so won't show in html
     }
   }
   var $dataView = event.target.getAttribute('data-view');
