@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left,
+.right {
+  font-size: 5em;
+}
+
+.dot-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 1em;
+}
+
+.dot-container > i {
+  margin: 0 0.5em;
+}
