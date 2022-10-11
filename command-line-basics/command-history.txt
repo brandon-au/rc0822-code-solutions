@@ -1,0 +1,500 @@
+   85  git branch javascript-arrays
+   86  git switch javascript-arrays
+   87  git add javascript-arrays
+   88  git commit -m "Completed javascript-arrays exercise - Brandon Au"
+   89  git push origin javascript-arrays 
+   90  git switch main
+   91  git pull origin main
+   92  git status
+   93  git branch css-four-column-layout
+   94  git switch css-four-column-layout
+   95  git add css-four-column-layout
+   96  git commit css-four-column-layout -m "Completed css-four-coloumn-layout challenge - Brandon Au"
+   97  git push origin css-four-column-layout
+   98  git add css-four-column-layout
+   99  git commit css-four-column-layout -m "added width property and value to phone-content column"
+  100  git push origin css-four-column-layout
+  101  git switch main
+  102  git pull origin main
+  103  git status
+  104  git branch javascript-data-model
+  105  git switch javascript-data-model
+  106  git add javascript-data-model
+  107  git commit javascript-data-model -m "Completed javascript-data-model exercise - Brandon Au"
+  108  git push origin javascript-data-model
+  109  git add javascript-data-model
+  110  git commit javascript-data-model -m "added order#. total cost, img info"
+  111  git push origin javascript-data-model
+  112  git switch main
+  113  git pull origin main
+  114  git status
+  115  git branch javascript-functions
+  116  git switch javascript-functions
+  117  git add javascript-functions
+  118  git commit javascript-functions -m "Completed javascript-functions exercise - Brandon Au"
+  119  git push origin javascript-functions
+  120  git add javascript-functions
+  121  git commit javascript-functions -m "corrected function getLastElement to return last element in the array"
+  122  git push origin javascript-functions
+  123  git switch main
+  124  git pull origin main
+  125  git status
+  126  git branch javascript-functions-practice
+  127  git swithc javascript-functions-practice
+  128  git switch javascript-functions-practice
+  129  git add javascript-functions-practice
+  130  git commit javascript-functions-practice -m "Completed javascript-functions-practice - Brandon Au"
+  131  git push origin javascript-functions-practice
+  132  git switch main
+  133  git pull origin main
+  134  git status
+  135  git branch javascript-methods
+  136  git switch javascript-methods
+  137  git switch main
+  138  git pull origin main
+  139  git status
+  140  git branch javascript-loops-practice
+  141  git switch javascript-loops-practice
+  142  git switch main
+  143  git branch css-cascade
+  144  git switch css-cascadew
+  145  git switch css-cascade
+  146  git add css-cascade
+  147  git commit css-cascade -m "Completed css-cascade exercise - Brandon Au"
+  148  git push origin css-cascade
+  149  git add string-manipulation-1
+  150  git commit string-manipulation-1 -m "Completed string-manipulation-1 practice - Brandon Au"
+  151  git push origin string-manipulation-1
+  152  git switch main
+  153  git status
+  154  git restore javascript-loops
+  155  git branch css-ecommerce-page
+  156  git switch css-ecommerce-page
+  157  git add css-ecommerce-page
+  158  git commit css-ecommerce-page-
+  159  git commit css-ecommerce-page -m "Completed css-ecommerce-page practice - Brandon Au"
+  160  git push origin css-ecommerce-page
+  161  git switch main
+  162  git branch array-manipulation-1
+  163  git switch array-manipulation-1
+  164  git switch string-manipulation-1
+  165  git switch array-manipulation-1
+  166  git switch string-manipulation-1
+  167  git switch array-manipulation-1
+  168  git switch string-manipulation-1
+  169  git switch array-manipulation-1
+  170  git add css-array-manipulation-1
+  171  git add array-manipulation-1
+  172  git commit array-manipulation-1 -m "Completed array-manipulation-1 practice - Brandon Au"
+  173  git push origin array-manipulation-1
+  174  git switch main
+  175  git branch object-manipulation-1
+  176  git switch object-manipulation-1
+  177  git switch main
+  178  git pull origin main
+  179  git switch object-manipulation-1
+  180  got switch array-manipulation-1
+  181  git switch array-manipulation-1
+  182  git switch object-manipulation-1
+  183  git add object-manipulation-1
+  184  git commit object-manipulation-1 -m "Completed object-manipulation-1 practice - Brandon Au"
+  185  git push origin object-manipulation-1
+  186  git switch main
+  187  git branch dom-querying
+  188  git switch dom-querying
+  189  git add dom-querying
+  190  git commit dom-querying -m "Completed dom-querying exercise - Brandon Au"
+  191  git push origin dom-querying
+  192  git switch main
+  193  git branch dom-events
+  194  git swithc dom-events
+  195  git switch dom-events
+  196  git switch dom-querying
+  197  git switch dom-events
+  198  git restore javascript-functions
+  199  git switch dom-querying
+  200  git switch dom-events
+  201  git add dom-events
+  202  git commit dom-events -m "Completed dom-events exercise - Brandon Au"
+  203  git push origin dom-events
+  204  git switch main
+  205  git branch dom-manipulation
+  206  git switch dom-manipulation
+  207  git switch dom-events
+  208  git switch main
+  209  git restore dom-events
+  210  git switch main
+  211  git commit dom events -m "overwritten styles.css"
+  212  git commit dom-events -m "overwritten styles.css"
+  213  --allow-empty
+  214  git commit dom-events -m "overwritten styles.css"
+  215  git switch main
+  216  git commit dom-events -m "overwritten styles.css"
+  217  git restore dom-events
+  218  git restore dom-events
+  219  git switch main
+  220  git pull origin main
+  221  git switch main
+  222  git restore dom-events
+  223  git add dom-events
+  224  git commit dom-events -m "overwritten styles.css"
+  225  git commit - "overwritten"
+  226  git commit -m "overwritten"
+  227  git add
+  228  git add dom-events
+  229  git commit -m "overwritten"
+  230  git switch main
+  231  git commit -m "overwritten" --no-verify
+  232  git switch main
+  233  git status
+  234  git pull origin main
+  235  git restore javacsript-functions
+  236  git restore javascript-functions
+  237  git restore javascript-data-model
+  238  git pull origin main
+  239  git switch dom-manipulation
+  240  git add dom-manipulation
+  241  git commit dom-manipulation -m "Completed dom-manipulation exercise - Brandon Au"
+  242  git push origin dom-manipulation
+  243  git switch main
+  244  git switch main
+  245  git commit -m "message" --no-verify
+  246  git switch main
+  247  git push origin dom-manipulation
+  248  git switch main
+  249  git push main dom-manipulation
+  250  git switch main
+  251  git commit -m "message" --no-verify
+  252  git restore dom-manipulation
+  253  git switch main
+  254  git pull origin main
+  255  git branch javascript-light-bulb
+  256  git switch javascript-light-bulb
+  257  git switch main
+  258  git pull origin main
+  259  git switch javascript-light-bulb
+  260  git switch dom-manipulation
+  261  git switch javascript-light-bulb
+  262  git switch dom-manipulation
+  263  git switch javascript-light-bulb
+  264  git add javascript-light-bulb
+  265  git commit javascript-light-bult -m "Completed javascript-light-bulb challenge - Brandon Au"
+  266  git commit javascript-light-bulb -m "Completed javascript-light-bulb challenge - Brandon Au"
+  267  git push origin javascript-light-bulb
+  268  git switch javascript-ecommerce
+  269  git switch javascript-ecommerce-page
+  270  git switch css-ecommerce-page
+  271  git add css-ecommerce-page
+  272  git commit css-ecommerce-page -m "Editted width in .column 100%->20% - rev.1"
+  273  git push origin css-ecommerce-page
+  274  git switch main
+  275  git restore dom-manipulation
+  276  git git add dom-manipulation
+  277  git add dom-manipulation
+  278  git commit dom-manipulation -m "adjusted exercise"
+  279  git push origin dom-manipulation
+  280  git switch main
+  281  git restore javascript-functions
+  282  git restore javascript-data-model
+  283  git branch css-transforms
+  284  git switch css-transforms
+  285  git add css-transform
+  286  git add css-transforms
+  287  git commit css-transforms -m "Completed css-transforms exercise - Brandon Au"
+  288  git push origin css-transforms
+  289  git switch main
+  290  git pull origin main
+  291  git branch javascript-forms
+  292  git switch javascript-forms
+  293  git add javascript-forms
+  294  git commit javascript-forms -m "Completed javascript-forms exercise - Brandon Au"
+  295  git push origin javascript-forms
+  296  git switch main
+  297  git commit javascript-forms -m "commit"
+  298  git add javascript-forms
+  299  git commit javascript-forms -m "commit"
+  300  git add javascript-forms
+  301  git commit javascript-forms -m "commit"
+  302  git switch main
+  303  git pull origin main
+  304  git status
+  305  git add javascript-functions/javascript-data-model
+  306  git commit javscript-functions/javascript-data-model -m "commit"
+  307  git add javascript-functions/javascript-data-model/
+  308  git commit javscript-functions/javascript-data-model/ -m "commit"
+  309  git branch dom-creation
+  310  git switch dom-creation
+  311  git add dom-creation
+  312  git commit dom-creation -m "Completed dom-creation exercise - Brandon Au"
+  313  git push origin dom-creation
+  314  git switch main
+  315  git restore dom-creation
+  316  git switch main
+  317  git commit dom-creation -m "comment"
+  318  git switch main
+  319  git add dom-creation
+  320  git commit dom-creation -m "comment"
+  321  git commit dom-creation -m "comment" --no-verify
+  322  git switch main
+  323  git pull origin main
+  324  git restore javascript-functions
+  325  git restore javascript-data-models
+  326  git branch css-media-queries
+  327  git switch media-queries
+  328  git switch css-media-queries
+  329  git add css-media-queries
+  330  git commit css-media-queries -m "Completed css-media-queries - Brandon Au"
+  331  git push origin css-media-queries
+  332  git switch javascript-view-swapping
+  333  git switch main
+  334  git branch javascript-view-swapping-notes
+  335  git switch javascript-view-swapping-notes
+  336  git add javascript-view-swapping-notes
+  337  git add javascript-view-swapping
+  338  git commit javascript-view-swapping -m "notes for exercise"
+  339  git push origin javascript-view-swapping
+  340  git switch main
+  341  git status
+  342  git switch javascript-view-swapping-notes
+  343  git status
+  344  git switch main
+  345  git status
+  346  git branch css-transition
+  347  git switch css-transition
+  348  git add css-transitions
+  349  git commmit css-transitions -m "Completed css-transitions - Brandon Au"
+  350  git commit css-transitions -m "Completed css-transitions - Brandon Au"
+  351  git push origin css-transitions
+  352  git add css-transitions
+  353  git commit css-transitions -m "Completed css-transitions - Brandon Au"
+  354  git push origin css-transitions
+  355  git push origin css-transitions
+  356  git add css-transitions
+  357  git commit css-transitions -m "Completed css-transitions exercise - Brandon Au"
+  358  git push origin css-transitions
+  359  git add css-transition
+  360  git add css-transitions
+  361  git commit css-transition -m "Completed css-transitions exercise - Brandon Au"
+  362  git commit css-transitions -m "Completed css-transitions exercise - Brandon Au"
+  363  git switch main
+  364  git branch css-transitions
+  365  git switch css-transitions
+  366  git add css-transitions
+  367  git commit css-transitions -m "Completed css-transitions exercise - Brandon Au"
+  368  git push origin css-transitions
+  369  git status
+  370  git add javascript-local-storage
+  371  git commit javascript-local-storage -m "notes"
+  372  git switch main
+  373  git sttus
+  374  git status
+  375  git pull origin main
+  376  git branch javascript-custom-methods
+  377  git switch javascript-custom-methods
+  378  git add javascript-custom-methods
+  379  git commit javascript-custom-methods -m "Completed javascript-custom-methods exercise - Brandon Au"
+  380  git push origin javascript-custom-methods
+  381  git switch main
+  382  git pull origin main
+  383  git status
+  384  git branch javascript-this
+  385  git switch javascript-this
+  386  git add javascript-this
+  387  git commit javascript-this -m "Completed javascript-this exercise - Brandon Au"
+  388  git push origin javascript-this
+  389  git switch main
+  390  git pull origin main
+  391  git branch javascript-prototypes
+  392  git switch javascript-prototypes
+  393  git add javascript-prototypes
+  394  git commit javascript-prototypes -m "Completed javascript-prototypes exercise - Brandon Au"
+  395  git push origin javascript-prototypes
+  396  git switch main
+  397  git pull origin main
+  398  git status
+  399  git branch javascript-constructors
+  400  git switch javascript-constructors
+  401  git add javascript-constructors
+  402  git commit -m "Completed javascript-constructors exercise - Brandon Au"
+  403  git add javascript-constructors
+  404  git commit -m "Completed javascript-constructors exercise - Brandon Au"
+  405  git push origin javascript-constructors
+  406  git switch main
+  407  git pull origin main
+  408  git branch javascript-bank
+  409  git switch javascript-bank
+  410  git add .
+  411  git commit -m "Completed javascript-bank challenge - Brandon Au"
+  412  git push origin javascript-bank
+  413  git switch main
+  414  git pull origin main
+  415  git branch javascript-timers
+  416  git switch javascript-timers
+  417  git add javascript-timers
+  418  git commit javascript-timers -m "Completed javascript-timers exercise - Brandon Au"
+  419  git push origin javascript-timers
+  420  git switch main
+  421  git pull origin main
+  422  git branch javascript-carousel
+  423  git switch javascript-carousel
+  424  git switch main
+  425  git status
+  426  git branch http-messages
+  427  git switch http-messages
+  428  git switch main
+  429  http http:/www.example.com
+  430  git switch http-messages
+  431  http http:/www.example.com
+  432  http https://learning-fuze.github.io/example
+  433  http http://learning-fuze.github.io/example
+  434  http --verbose https://jsonplaceholder.typicode.com/users 
+  435  http --body GET https://jsonplaceholder.typicode.com/users > http-messages/users.json
+  436  http --body GET https://example.com > http-messages/index.html
+  437  git add http-messages
+  438  git commit http-messages -m "Completed http-messages exercise - Brandon Au"
+  439  git push origin http-messages
+  440  git switch main
+  441  git pull origin main
+  442  git branch javascript-ajax
+  443  git switch javascript-ajax
+  444  git add javascript-ajax
+  445  git commit javascript-ajax -m "Completed javascript-ajax exercise - Brandon Au"
+  446  git push origin javascript-ajax
+  447  git switch main
+  448  git switch carousel
+  449  git switch javascript-carousel
+  450  git switch main
+  451  git pull origin main
+  452  http https://ffxivcollect.com/api/mounts/186
+  453  http https://ffxivcollect.com/api/mounts/1?language=en
+  454  http --verbose https://ffxivcollect.com/api/mounts/1?language=en
+  455  http --verbose https://universalis.app/api/v2/marketable
+  456  http https://universalis.app/api/v2/marketable
+  457  http http://colormind.io/api/
+  458  http --verbose https://www.dnd5eapi.co/api/ability-scores/cha
+  459  git restore 
+  460  git restore javascript-ajax
+  461  http https://pokeapi.co/api/v2/pokemon/
+  462  http https://acnhapi.com/
+  463  git switch javascript-carousel
+  464  git add javascript-carousel
+  465  git commit javascript-carousel -m "Completed javascript-carousel minus dot state functionality - Brandon Au"
+  466  git add javascript-carousel
+  467  git commit javascript-carousel -m "Completed javascript-carousel minus dot state functionality - Brandon Au"
+  468  git push origin javascript-carousel
+  469  git switch main
+  470  git switch main
+  471  git pull origin main
+  472  git branch es6-const-let
+  473  git switch es6-const-let
+  474  git add es6-const-let
+  475  git commit es6-const-let -m "Completed es6-const-let exercise - Brandon Au"
+  476  git push es6-const-let
+  477  git push origin es6-const-let
+  478  git switch main
+  479  git pull origin main
+  480  git status
+  481  git branch es6-template-literals
+  482  git switch es6-template-literals
+  483  git push es6-template-literals
+  484  git add es6-template-literals
+  485  git commit es6-template-literals -m "Completed es6-template-literals exercise - Brandon Au"
+  486  git push origin es6-template-literals
+  487  git add es6-template-literals
+  488  git commit es6-template-literals -m "Completed es6-template-literals exercise - Brandon Au"
+  489  git push origin es6-template-literals
+  490  git switch main
+  491  git branch es6-destructuring
+  492  git switch e6s-destructuring
+  493  git switch es6-destructuring
+  494  git add es6-destructuring
+  495  git commit es6-destructuring -m "Completed es6-destructuring exercise - Brandon Au"
+  496  git push origin es6-destructuring 
+  497  git switch main
+  498  git pull origin main
+  499  git branch es6-arrow-functions
+  500  git switch es6-arrow-functions
+  501  git add es6-arrow-functions
+  502  git commit es6-arrow-functions -m "Completed es6-arrow-functions exercise - Brandon Au"
+  503  git push origin es6-arrow-functions
+  504  git switch main
+  505  git branch command-line-basics
+  506  git switch command-line-basics
+  507  cd command-line-basics
+  508  man man
+  509  man cat
+  510  cat laziness.txt
+  511  cat impatience.txt
+  512  cat hubris.txt
+  513  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  514  cat three-virtues.txt
+  515  man ls
+  516  ls command-line-basics
+  517  ls 
+  518  ls three-virtues.txt
+  519  ls -a three-virtues.txt
+  520  ls pokiemans
+  521  ls -a pokiemans
+  522  ls -F pokiemans
+  523  ls lfz-staff
+  524  ls -a lfz-staff
+  525  ls -F lfz-staff
+  526  man ls
+  527  ls -aF lfz-staff > lfz-staff/contents.txt
+  528  cat lfz-staff/contents.txt
+  529  man man
+  530  man cat
+  531  man pwd
+  532  pwd pokiemans
+  533  pwd > i-was-here.txt
+  534  ls i-was-here-txt
+  535  pwd
+  536  pwd pokiemans
+  537  pwd > i-was-here-txt
+  538  ls command-line-basics
+  539  cat i-was-here.txt
+  540  ls command-line-basics
+  541  ls
+  542  man echo
+  543  echo Hello, World!
+  544  echo 'Hello, World!'
+  545  echo 'Hello, World!' > hello.txt
+  546  ls
+  547  cat hello.txt
+  548  man touch
+  549  man tag-youre-it.txt
+  550  touch tag-youre-it.txt
+  551  touch snoot/boop.txt
+  552  ls snoot
+  553  man mkdir
+  554  mkdir parent
+  555  ls parent
+  556  ls
+  557  mkdir -p
+  558  mkdir --help
+  559  mkdir parent -p
+  560  man mkdir
+  561  mkdir -p parent/child/grandparent
+  562  ls parent
+  563  ls parent/child
+  564  touch parent/child/grandchild .gitkeep
+  565  touch parent/child/grandchild/.gitkeep
+  566  ls -a parent.child/grandchild
+  567  ls -a parent/child/grandchild
+  568  man mv
+  569  mv pokiemans pokemon
+  570  ls
+  571  man rm
+  572  rm lol.txt
+  573  ls
+  574  man rm
+  575  rm -r kill-me
+  576  ls
+  577  man cp
+  578  cp and-then.txt no-and-then.txt
+  579  ls
+  580  cat and-then.txt
+  581  cat no-and-then.txt
+  582  man history
+  583  history
+  584  history > command-history.txt
