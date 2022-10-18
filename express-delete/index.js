@@ -31,9 +31,16 @@ app.get('/api/grades', (req, res) => {
 });
 
 app.delete('/api/grades/:id', (req, res) => {
-  const id = req.params.id;
-  delete grades[id];
-  res.sendStatus(204);
+  const id = Number(req.params.id);
+  // converts req.params.id into a number
+  if (!grades[id]) {
+    // conditional to check if grades[id] exists in object
+    res.sendStatus(404);
+    // doesnt exist, returns 404 error
+  } else {
+    delete grades[id];
+    res.sendStatus(204);
+  }
 });
 
 app.listen(3000, () => {
