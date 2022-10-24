@@ -15,6 +15,13 @@ const names = [
 const evenNumbers = numbers.filter(number => number % 2 === 0);
 console.log('evenNumbers:', evenNumbers);
 
+// another solution example
+// const isEven = number => {
+//   return number % 2 === 0
+// };
+// const evenNumbers = evenNumbers.filter(isEven);
+// console.log('EvenNumbers:', evenNumbers);
+
 const overFive = numbers.filter(number => number > 5);
 console.log('overFive:', overFive);
 
@@ -22,4 +29,3 @@ const startWithE = names.filter(name => name[0] === 'E');
 console.log('startWithE:', startWithE);
 
 const haveD = names.filter(name => name.includes('d') || name.includes('D'));
-console.log(haveD);
