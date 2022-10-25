@@ -8,7 +8,7 @@
 
 // before demo
 class Student {
-  constuctor(firstName, lastName, subject) {
+  constructor(firstName, lastName, subject) {
     this.firstName = firstName;
     this.lastName = lastName;
     this.subject = subject;
