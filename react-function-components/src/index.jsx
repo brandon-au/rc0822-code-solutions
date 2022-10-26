@@ -10,6 +10,8 @@ const root = ReactDOM.createRoot(container);
 const element = <CustomButton />;
 root.render(element);
 
+// root.render(<CustomButton />); // this line can replace lines 10+11
+
 // function CustomButton(props) {
 //   return <button>Click Me!</button>;
 // }
