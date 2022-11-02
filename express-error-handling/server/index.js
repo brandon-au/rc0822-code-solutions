@@ -72,7 +72,7 @@ app.get('/api/grades/:gradeId', (req, res, next) => {
       } else {
         res.json(grade);
       }
-    })`cannot find grade with gradeId ${gradeId}`
+    })
     .catch(err => next(err));
 });
 
