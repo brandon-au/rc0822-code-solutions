@@ -19,28 +19,30 @@ const jsonMiddleware = express.json();
 app.use(jsonMiddleware);
 
 app.post('/api/auth/sign-up', (req, res, next) => {
+  // in general this is how account registration works
   const { username, password } = req.body;
   if (!username || !password) {
     throw new ClientError(400, 'username and password are required fields');
   }
 
   /* your code starts here */
-  argon2.hash(password)
+  argon2.hash(password) // hashes password and then insert statement
     .then(hashedPassword => {
       const sql = `
       insert into "users"("username", "hashedPassword")
       values ($1, $2)
-      returning *
-    `;
+      returning "userId", "username", "createdAt"
+      `;
       const params = [username, hashedPassword];
-
-      db.query(sql, params)
+      // assigns username and hasedPassword to values $1 and $2
+      return db.query(sql, params) // combines sql and params and sends to database
         .then(result => {
           const [newUser] = result.rows;
+          // above line same as const: newUser = result.rows[0];
           res.status(201).json(newUser);
-        })
-        .catch(err => next(err));
-    });
+        });
+    })
+    .catch(err => next(err));
 });
 /**
    * Hash the user's password with `argon2.hash()`
